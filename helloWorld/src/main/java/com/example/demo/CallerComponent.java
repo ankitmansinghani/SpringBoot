@@ -6,15 +6,15 @@ import org.springframework.stereotype.Component;
 @Component
 public class CallerComponent {
 
-	private TempClass class1;
+	private TempClass classx;
 
 	public TempClass getClass1() {
-		return class1;
+		return classx;
 	}
 
 	@Autowired
 	public void setClass1(TempClass class1) {
-		this.class1 = class1;
+		this.classx = class1;
 	}
 	
 }
