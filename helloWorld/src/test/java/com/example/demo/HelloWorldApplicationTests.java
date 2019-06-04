@@ -11,7 +11,7 @@ public class HelloWorldApplicationTests {
 
 	@Test
 	public void contextLoads() {
-	System.out.println("hello");
+	System.out.println("Hello World");
 	}
 
 }
