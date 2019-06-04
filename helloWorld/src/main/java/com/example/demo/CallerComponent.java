@@ -9,6 +9,7 @@ public class CallerComponent {
 	private TempClass classx;
 
 	public TempClass getClass1() {
+		System.out.println("No i won't change veriable name");
 		return classx;
 	}
 
